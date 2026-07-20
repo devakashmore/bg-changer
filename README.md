@@ -1,16 +1,98 @@
-# React + Vite
+# 🎨 Background Color Changer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that changes the background color of the page with a single click. This project demonstrates the basics of React state management using the `useState` hook, event handling with `onClick`, and styling with `Tailwind CSS`.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🎨 Change the background color dynamically
+- ⚛️ Built using React functional components
+- 🪝 Uses the `useState` hook for state management
+- 🖱️ Uses `onClick` event handling
+- 💨 Styled with Tailwind CSS
+- 📱 Responsive and clean UI
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- Tailwind CSS
+- JavaScript (ES6+)
+- HTML5
+- CSS3
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+bg-color-changer/
+│── public/
+│── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│── package.json
+│── vite.config.js
+└── README.md
+```
+
+
+## ⚙️ Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/bg-changer.git
+```
+
+2. Navigate to the project folder
+
+```bash
+cd bg-changer
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+5. Open your browser and visit
+
+```
+http://localhost:5173
+```
+
+## 📖 How It Works
+
+- The application stores the current background color using the **useState** hook.
+- When a color button is clicked, the **onClick** event updates the state.
+- React automatically re-renders the component with the new background color.
+- Tailwind CSS is used to style the buttons and layout.
+
+## 🧠 Concepts Practiced
+
+- React Functional Components
+- useState Hook
+- Event Handling (`onClick`)
+- Dynamic Styling
+- Conditional Rendering
+- Tailwind CSS Utility Classes
+
+## 🎯 Future Improvements
+
+- Add a custom color picker
+- Generate random colors
+- Copy HEX/RGB color code
+
+
+This project is licensed under the MIT License.
+
+## 👨‍💻 Author
+
+**Akash More**
+
+If you found this project helpful, consider giving it a ⭐ on GitHub!
